@@ -1,0 +1,110 @@
+.category-table {
+    width: 90%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(58,124,165,0.07);
+    overflow: hidden;
+    font-size: 1.05rem;
+}
+
+.category-table th, .category-table td {
+    padding: 4px 10px;
+    text-align: center;
+}
+
+.category-table thead {
+    background: #3a7ca5;
+    color: #fff;
+}
+
+.category-table tbody tr {
+    border-bottom: 1px solid #e0e6ed;
+    transition: background 0.2s;
+}
+
+.category-table tbody tr:hover {
+    background: #f0f6fa;
+}
+
+.category-table td button {
+    margin: 0 4px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.98rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.category-table .btn-primary {
+    background: #3a7ca5;
+    color: #fff;
+}
+.category-table .btn-primary:hover {
+    background: #28587b;
+}
+.category-table .btn-danger {
+    background: #e74c3c;
+    color: #fff;
+}
+.category-table .btn-danger:hover {
+    background: #c0392b;
+}
+body{
+    margin: 0px;
+}
+.header {
+    background-color: rgb(63, 190, 199);
+    padding: 16px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h2{
+    color: white;
+    font-size: 34px;
+}
+
+.NavBar {
+    background-color: rgb(244, 246, 247);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+    border: 1px solid grey;
+
+}
+
+.NavBar a {
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    border: 1px solid rgb(131, 131, 131);
+margin: 20px;
+}
+
+.NavBar a:hover {
+    background-color: rgb(63, 190, 199);
+    color: white;
+    
+;
+}
+.category-table {
+   margin-left: 0%;
+}
+
+thead {
+    background-color: rgb(63, 190, 199);
+    color: white;    
+}
+th {
+    background-color: rgb(184, 184, 184);
+}
