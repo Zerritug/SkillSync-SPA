@@ -22,9 +22,10 @@ app.get('/api/test', async (req, res) => {
 
 
 //routes
-const lessons = require('./routes/lessons.js');
-app.use('/api/lessons', lessons);
-
+const category = require('./routes/categories.js');
+app.use('/api/skill', category);
+const lesson = require('./routes/lessons.js');
+app.use('/api/skill', lesson);
 
 // Port
 const PORT = process.env.PORT || 3000;
